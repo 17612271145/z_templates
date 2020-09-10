@@ -1,0 +1,24 @@
+@import '~vant/lib/index.css';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html,body{
+  height: 100%;
+}
+#app{
+  position: relative;
+  min-height: 100%;
+}
+body{
+  font: 12px/1.5 "PingFang SC",miui,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $baseColor;
+  box-sizing: border-box;
+  color: $baseFontColor;
+  overflow: auto;
+}
+
+
